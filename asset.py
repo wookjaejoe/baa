@@ -1,6 +1,5 @@
 class Assets:
-    # offensives = ["QQQ", "VWO", "VEA", "BND"]
-    offensives = ["QQQ", "EFA", "EEM", "AGG"]
+    offensives = ["QQQ", "VWO", "VEA", "BND"]
     defensives = ["TIP", "DBC", "BIL", "IEF", "TLT", "LQD", "BND"]
     canaries = ["SPY", "VEA", "VWO", "BND"]
 

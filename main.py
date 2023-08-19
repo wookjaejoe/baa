@@ -97,10 +97,12 @@ def main():
 
     # 결과 요약
     summary = pd.Series({
-        "Cumulative Return(%)": cum_return[-1],
+        "Start date": result.index.min(),
+        "End date": result.index.max(),
+        "Cumulative Return(%)": result["cum_return"][-1],
         "CAGR(%)": cagr * 100,
-        "MDD(%)": mdd[-1] * 100,
-        "Sharpe": port["return"].mean() / port["return"].std(),
+        "MDD(%)": result["mdd"][-1] * 100,
+        "Sharpe": result["return"].mean() / result["return"].std(),
     })
     print(summary)
 

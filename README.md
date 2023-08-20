@@ -4,7 +4,7 @@
 
 ## 실행 방법
 
-<sub>Python v3.8 사용</sub>
+<sub>Python v3.11 사용</sub>
 
 1. 의존성 설치 `pip install -r requirements.txt`
 2. 백테스트 실행: `python main.py`
